@@ -1,0 +1,4 @@
+spacy>=3.0.0
+matplotlib>=3.5.0
+networkx>=2.8.0
+# nltk>=3.7  # Alternativa ao spaCy — descomentar se preferir

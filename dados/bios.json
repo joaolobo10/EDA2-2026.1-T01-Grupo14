@@ -1,0 +1,742 @@
+[
+  {
+    "id": 1,
+    "bio_original": "Apaixonado por festivais de música. Gamer nas horas vagas, principalmente RPG.",
+    "palavras": [
+      "apaixonado",
+      "festival",
+      "música",
+      "gamer",
+      "hora",
+      "vaga",
+      "principalmente",
+      "rpg"
+    ]
+  },
+  {
+    "id": 2,
+    "bio_original": "Viajo sempre que posso, adoro conhecer lugares novos. Desenvolvo aplicativos como hobbie.",
+    "palavras": [
+      "viajo",
+      "conhecer",
+      "lugar",
+      "novo",
+      "desenvolvo",
+      "aplicativo",
+      "hobbie"
+    ]
+  },
+  {
+    "id": 3,
+    "bio_original": "Fotografo paisagens e retratos no tempo livre. Amo música e vou a shows sempre que posso.",
+    "palavras": [
+      "fotografo",
+      "paisagen",
+      "retrato",
+      "tempo",
+      "livre",
+      "música",
+      "show"
+    ]
+  },
+  {
+    "id": 4,
+    "bio_original": "Sou barista nas horas vagas e amo café especial. Leio pelo menos um livro por mês.",
+    "palavras": [
+      "barista",
+      "hora",
+      "vaga",
+      "café",
+      "especial",
+      "leio",
+      "meno",
+      "livro",
+      "mês"
+    ]
+  },
+  {
+    "id": 5,
+    "bio_original": "Cinema independente é minha paixão. Torço muito para o meu time de futebol.",
+    "palavras": [
+      "cinema",
+      "independente",
+      "paixão",
+      "torço",
+      "time",
+      "futebol"
+    ]
+  },
+  {
+    "id": 6,
+    "bio_original": "Ouço de tudo, mas sertanejo é minha paixão. Pinto aquarelas como hobbie. Sou apaixonado por esportes radicais.",
+    "palavras": [
+      "ouço",
+      "tudo",
+      "sertanejo",
+      "paixão",
+      "pinto",
+      "aquarela",
+      "hobbie",
+      "apaixonado",
+      "esport",
+      "radical"
+    ]
+  },
+  {
+    "id": 7,
+    "bio_original": "Restaurantes e bares novos são meu programa favorito. Fotografo paisagens e retratos no tempo livre.",
+    "palavras": [
+      "restaurant",
+      "bar",
+      "novo",
+      "programa",
+      "favorito",
+      "fotografo",
+      "paisagen",
+      "retrato",
+      "tempo",
+      "livre"
+    ]
+  },
+  {
+    "id": 8,
+    "bio_original": "Pinto aquarelas como hobbie. Apaixonado por festivais de música.",
+    "palavras": [
+      "pinto",
+      "aquarela",
+      "hobbie",
+      "apaixonado",
+      "festival",
+      "música"
+    ]
+  },
+  {
+    "id": 9,
+    "bio_original": "Música eletrônica e baladas são meu mundo. Trabalho com programação e amo tecnologia. Faço churrasco todo domingo com os amigos.",
+    "palavras": [
+      "música",
+      "eletrônica",
+      "balada",
+      "mundo",
+      "trabalho",
+      "programação",
+      "tecnologia",
+      "churrasco",
+      "domingo",
+      "amigo"
+    ]
+  },
+  {
+    "id": 10,
+    "bio_original": "Prefiro livros físicos a e-books. Pinto aquarelas como hobbie.",
+    "palavras": [
+      "prefiro",
+      "livro",
+      "físico",
+      "book",
+      "pinto",
+      "aquarela",
+      "hobbie"
+    ]
+  },
+  {
+    "id": 11,
+    "bio_original": "Adoro academia e corrida de rua. Apaixonado por festivais de música.",
+    "palavras": [
+      "academia",
+      "corrida",
+      "rua",
+      "apaixonado",
+      "festival",
+      "música"
+    ]
+  },
+  {
+    "id": 12,
+    "bio_original": "Adoro cozinhar e experimentar receitas novas. Cinema independente é minha paixão.",
+    "palavras": [
+      "cozinhar",
+      "experimentar",
+      "receita",
+      "nova",
+      "cinema",
+      "independente",
+      "paixão"
+    ]
+  },
+  {
+    "id": 13,
+    "bio_original": "Tenho uma horta em casa e amo jardinagem. Acompanho tendências de inteligência artificial. Praias e montanhas são meus destinos favoritos.",
+    "palavras": [
+      "horta",
+      "casa",
+      "jardinagem",
+      "acompanho",
+      "tendência",
+      "inteligência",
+      "artificial",
+      "praia",
+      "montanha",
+      "destino",
+      "favorito"
+    ]
+  },
+  {
+    "id": 14,
+    "bio_original": "Leio pelo menos um livro por mês. Desenvolvo aplicativos como hobbie.",
+    "palavras": [
+      "leio",
+      "meno",
+      "livro",
+      "mês",
+      "desenvolvo",
+      "aplicativo",
+      "hobbie"
+    ]
+  },
+  {
+    "id": 15,
+    "bio_original": "Faço churrasco todo domingo com os amigos. Natação e ciclismo fazem parte da minha rotina.",
+    "palavras": [
+      "churrasco",
+      "domingo",
+      "amigo",
+      "natação",
+      "ciclismo",
+      "parte",
+      "rotina"
+    ]
+  },
+  {
+    "id": 16,
+    "bio_original": "Adoro cozinhar e experimentar receitas novas. Gamer nas horas vagas, principalmente RPG. Viajo sempre que posso, adoro conhecer lugares novos.",
+    "palavras": [
+      "cozinhar",
+      "experimentar",
+      "receita",
+      "nova",
+      "gamer",
+      "hora",
+      "vaga",
+      "principalmente",
+      "rpg",
+      "viajo",
+      "conhecer",
+      "lugar",
+      "novo"
+    ]
+  },
+  {
+    "id": 17,
+    "bio_original": "Adoro museus e exposições de arte contemporânea. Turismo gastronômico é minha forma favorita de viajar. Apaixonado por festivais de música.",
+    "palavras": [
+      "museu",
+      "exposição",
+      "arte",
+      "contemporânea",
+      "turismo",
+      "gastronômico",
+      "forma",
+      "favorita",
+      "viajar",
+      "apaixonado",
+      "festival",
+      "música"
+    ]
+  },
+  {
+    "id": 18,
+    "bio_original": "Mergulho e ecoturismo são meus hobbies. Sou apaixonado por culinária italiana.",
+    "palavras": [
+      "mergulho",
+      "ecoturismo",
+      "hobbi",
+      "apaixonado",
+      "culinária",
+      "italiana"
+    ]
+  },
+  {
+    "id": 19,
+    "bio_original": "Turismo gastronômico é minha forma favorita de viajar. Torço muito para o meu time de futebol. Acompanho tendências de inteligência artificial.",
+    "palavras": [
+      "turismo",
+      "gastronômico",
+      "forma",
+      "favorita",
+      "viajar",
+      "torço",
+      "time",
+      "futebol",
+      "acompanho",
+      "tendência",
+      "inteligência",
+      "artificial"
+    ]
+  },
+  {
+    "id": 20,
+    "bio_original": "Adoro museus e exposições de arte contemporânea. Turismo gastronômico é minha forma favorita de viajar. Natação e ciclismo fazem parte da minha rotina.",
+    "palavras": [
+      "museu",
+      "exposição",
+      "arte",
+      "contemporânea",
+      "turismo",
+      "gastronômico",
+      "forma",
+      "favorita",
+      "viajar",
+      "natação",
+      "ciclismo",
+      "parte",
+      "rotina"
+    ]
+  },
+  {
+    "id": 21,
+    "bio_original": "Amo música e vou a shows sempre que posso. Adoro museus e exposições de arte contemporânea.",
+    "palavras": [
+      "música",
+      "show",
+      "museu",
+      "exposição",
+      "arte",
+      "contemporânea"
+    ]
+  },
+  {
+    "id": 22,
+    "bio_original": "Fotografo paisagens e retratos no tempo livre. Frequento feiras de livros e livrarias antigas.",
+    "palavras": [
+      "fotografo",
+      "paisagen",
+      "retrato",
+      "tempo",
+      "livre",
+      "frequento",
+      "feira",
+      "livro",
+      "livraria",
+      "antiga"
+    ]
+  },
+  {
+    "id": 23,
+    "bio_original": "Cuido de animais e sou ativista ambiental. Leio pelo menos um livro por mês. Viajo sempre que posso, adoro conhecer lugares novos.",
+    "palavras": [
+      "cuido",
+      "animal",
+      "ativista",
+      "ambiental",
+      "leio",
+      "meno",
+      "livro",
+      "mês",
+      "viajo",
+      "conhecer",
+      "lugar",
+      "novo"
+    ]
+  },
+  {
+    "id": 24,
+    "bio_original": "Construo PCs e adoro hardware. Toco violão e adoro bandas de rock. Mochilão pela América do Sul é meu sonho.",
+    "palavras": [
+      "construo",
+      "pcs",
+      "hardware",
+      "violão",
+      "banda",
+      "rock",
+      "mochilão",
+      "américa",
+      "sul",
+      "sonho"
+    ]
+  },
+  {
+    "id": 25,
+    "bio_original": "Ficção científica e fantasia são meus gêneros favoritos. Cuido de animais e sou ativista ambiental.",
+    "palavras": [
+      "ficção",
+      "científica",
+      "fantasia",
+      "gênero",
+      "favorito",
+      "cuido",
+      "animal",
+      "ativista",
+      "ambiental"
+    ]
+  },
+  {
+    "id": 26,
+    "bio_original": "Prefiro livros físicos a e-books. Faço esculturas em cerâmica nos fins de semana.",
+    "palavras": [
+      "prefiro",
+      "livro",
+      "físico",
+      "book",
+      "escultura",
+      "cerâmica",
+      "fins",
+      "semana"
+    ]
+  },
+  {
+    "id": 27,
+    "bio_original": "Já morei fora do país e amo culturas diferentes. Cuido de animais e sou ativista ambiental.",
+    "palavras": [
+      "morei",
+      "fora",
+      "país",
+      "cultura",
+      "diferent",
+      "cuido",
+      "animal",
+      "ativista",
+      "ambiental"
+    ]
+  },
+  {
+    "id": 28,
+    "bio_original": "Trabalho com programação e amo tecnologia. Adoro cozinhar e experimentar receitas novas.",
+    "palavras": [
+      "trabalho",
+      "programação",
+      "tecnologia",
+      "cozinhar",
+      "experimentar",
+      "receita",
+      "nova"
+    ]
+  },
+  {
+    "id": 29,
+    "bio_original": "Ficção científica e fantasia são meus gêneros favoritos. Torço muito para o meu time de futebol. Amo música e vou a shows sempre que posso.",
+    "palavras": [
+      "ficção",
+      "científica",
+      "fantasia",
+      "gênero",
+      "favorito",
+      "torço",
+      "time",
+      "futebol",
+      "música",
+      "show"
+    ]
+  },
+  {
+    "id": 30,
+    "bio_original": "Adoro trilhas e acampamentos na natureza. Faço esculturas em cerâmica nos fins de semana.",
+    "palavras": [
+      "trilha",
+      "acampamento",
+      "natureza",
+      "escultura",
+      "cerâmica",
+      "fins",
+      "semana"
+    ]
+  },
+  {
+    "id": 31,
+    "bio_original": "Mochilão pela América do Sul é meu sonho. Desenvolvo aplicativos como hobbie.",
+    "palavras": [
+      "mochilão",
+      "américa",
+      "sul",
+      "sonho",
+      "desenvolvo",
+      "aplicativo",
+      "hobbie"
+    ]
+  },
+  {
+    "id": 32,
+    "bio_original": "Prefiro livros físicos a e-books. Mergulho e ecoturismo são meus hobbies.",
+    "palavras": [
+      "prefiro",
+      "livro",
+      "físico",
+      "book",
+      "mergulho",
+      "ecoturismo",
+      "hobbi"
+    ]
+  },
+  {
+    "id": 33,
+    "bio_original": "Restaurantes e bares novos são meu programa favorito. Construo PCs e adoro hardware.",
+    "palavras": [
+      "restaurant",
+      "bar",
+      "novo",
+      "programa",
+      "favorito",
+      "construo",
+      "pcs",
+      "hardware"
+    ]
+  },
+  {
+    "id": 34,
+    "bio_original": "Adoro trilhas e acampamentos na natureza. Ficção científica e fantasia são meus gêneros favoritos. Sou apaixonado por culinária italiana.",
+    "palavras": [
+      "trilha",
+      "acampamento",
+      "natureza",
+      "ficção",
+      "científica",
+      "fantasia",
+      "gênero",
+      "favorito",
+      "apaixonado",
+      "culinária",
+      "italiana"
+    ]
+  },
+  {
+    "id": 35,
+    "bio_original": "Desenvolvo aplicativos como hobbie. Música eletrônica e baladas são meu mundo.",
+    "palavras": [
+      "desenvolvo",
+      "aplicativo",
+      "hobbie",
+      "música",
+      "eletrônica",
+      "balada",
+      "mundo"
+    ]
+  },
+  {
+    "id": 36,
+    "bio_original": "Adoro cozinhar e experimentar receitas novas. Amo música e vou a shows sempre que posso.",
+    "palavras": [
+      "cozinhar",
+      "experimentar",
+      "receita",
+      "nova",
+      "música",
+      "show"
+    ]
+  },
+  {
+    "id": 37,
+    "bio_original": "Sou apaixonado por esportes radicais. Amo música e vou a shows sempre que posso.",
+    "palavras": [
+      "apaixonado",
+      "esport",
+      "radical",
+      "música",
+      "show"
+    ]
+  },
+  {
+    "id": 38,
+    "bio_original": "Frequento feiras de livros e livrarias antigas. Gamer nas horas vagas, principalmente RPG.",
+    "palavras": [
+      "frequento",
+      "feira",
+      "livro",
+      "livraria",
+      "antiga",
+      "gamer",
+      "hora",
+      "vaga",
+      "principalmente",
+      "rpg"
+    ]
+  },
+  {
+    "id": 39,
+    "bio_original": "Mergulho e ecoturismo são meus hobbies. Natação e ciclismo fazem parte da minha rotina.",
+    "palavras": [
+      "mergulho",
+      "ecoturismo",
+      "hobbi",
+      "natação",
+      "ciclismo",
+      "parte",
+      "rotina"
+    ]
+  },
+  {
+    "id": 40,
+    "bio_original": "Natação e ciclismo fazem parte da minha rotina. Apaixonado por festivais de música.",
+    "palavras": [
+      "natação",
+      "ciclismo",
+      "parte",
+      "rotina",
+      "apaixonado",
+      "festival",
+      "música"
+    ]
+  },
+  {
+    "id": 41,
+    "bio_original": "Fotografo paisagens e retratos no tempo livre. Adoro cozinhar e experimentar receitas novas. Trabalho com programação e amo tecnologia.",
+    "palavras": [
+      "fotografo",
+      "paisagen",
+      "retrato",
+      "tempo",
+      "livre",
+      "cozinhar",
+      "experimentar",
+      "receita",
+      "nova",
+      "trabalho",
+      "programação",
+      "tecnologia"
+    ]
+  },
+  {
+    "id": 42,
+    "bio_original": "Gamer nas horas vagas, principalmente RPG. Adoro museus e exposições de arte contemporânea. Toco violão e adoro bandas de rock.",
+    "palavras": [
+      "gamer",
+      "hora",
+      "vaga",
+      "principalmente",
+      "rpg",
+      "museu",
+      "exposição",
+      "arte",
+      "contemporânea",
+      "violão",
+      "banda",
+      "rock"
+    ]
+  },
+  {
+    "id": 43,
+    "bio_original": "Praias e montanhas são meus destinos favoritos. Faço churrasco todo domingo com os amigos. Adoro academia e corrida de rua.",
+    "palavras": [
+      "praia",
+      "montanha",
+      "destino",
+      "favorito",
+      "churrasco",
+      "domingo",
+      "amigo",
+      "academia",
+      "corrida",
+      "rua"
+    ]
+  },
+  {
+    "id": 44,
+    "bio_original": "Cuido de animais e sou ativista ambiental. Fotografo paisagens e retratos no tempo livre.",
+    "palavras": [
+      "cuido",
+      "animal",
+      "ativista",
+      "ambiental",
+      "fotografo",
+      "paisagen",
+      "retrato",
+      "tempo",
+      "livre"
+    ]
+  },
+  {
+    "id": 45,
+    "bio_original": "Toco violão e adoro bandas de rock. Tenho uma horta em casa e amo jardinagem.",
+    "palavras": [
+      "violão",
+      "banda",
+      "rock",
+      "horta",
+      "casa",
+      "jardinagem"
+    ]
+  },
+  {
+    "id": 46,
+    "bio_original": "Mergulho e ecoturismo são meus hobbies. Adoro cozinhar e experimentar receitas novas. Adoro academia e corrida de rua.",
+    "palavras": [
+      "mergulho",
+      "ecoturismo",
+      "hobbi",
+      "cozinhar",
+      "experimentar",
+      "receita",
+      "nova",
+      "academia",
+      "corrida",
+      "rua"
+    ]
+  },
+  {
+    "id": 47,
+    "bio_original": "Ouço de tudo, mas sertanejo é minha paixão. Restaurantes e bares novos são meu programa favorito. Mochilão pela América do Sul é meu sonho.",
+    "palavras": [
+      "ouço",
+      "tudo",
+      "sertanejo",
+      "paixão",
+      "restaurant",
+      "bar",
+      "novo",
+      "programa",
+      "favorito",
+      "mochilão",
+      "américa",
+      "sul",
+      "sonho"
+    ]
+  },
+  {
+    "id": 48,
+    "bio_original": "Já morei fora do país e amo culturas diferentes. Pratico futebol todo fim de semana. Cuido de animais e sou ativista ambiental.",
+    "palavras": [
+      "morei",
+      "fora",
+      "país",
+      "cultura",
+      "diferent",
+      "pratico",
+      "futebol",
+      "fim",
+      "semana",
+      "cuido",
+      "animal",
+      "ativista",
+      "ambiental"
+    ]
+  },
+  {
+    "id": 49,
+    "bio_original": "Trabalho com programação e amo tecnologia. Música eletrônica e baladas são meu mundo.",
+    "palavras": [
+      "trabalho",
+      "programação",
+      "tecnologia",
+      "música",
+      "eletrônica",
+      "balada",
+      "mundo"
+    ]
+  },
+  {
+    "id": 50,
+    "bio_original": "Viajo sempre que posso, adoro conhecer lugares novos. Toco violão e adoro bandas de rock. Leio pelo menos um livro por mês.",
+    "palavras": [
+      "viajo",
+      "conhecer",
+      "lugar",
+      "novo",
+      "violão",
+      "banda",
+      "rock",
+      "leio",
+      "meno",
+      "livro",
+      "mês"
+    ]
+  }
+]
