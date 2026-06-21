@@ -1,53 +1,145 @@
-# Esqueleto do Projeto — Análise Textual de Bios de Matchmaking via Grafos
+# Análise Textual de Bios de Matchmaking via Grafos
 
-Este é o gabarito do projeto: toda a estrutura de pastas, todos os imports,
-todas as classes e funções já estão definidas com o nome certo e os
-parâmetros certos. Falta só preencher o corpo de cada função (onde está
-`pass  # Implementar: Nome`).
+Trabalho da disciplina de Estruturas de Dados / Algoritmos em Grafos.
 
-## Como usar
+## Integrantes
 
-Cada função tem um comentário `# Implementar: Nome` indicando quem é
-responsável por aquela parte. Implemente só as suas, sem mudar a assinatura
-(nome da função e dos parâmetros) — isso já está combinado com o resto do
-código através dos imports.
+- João Lobo — Estrutura do grafo, construção, análise e integração
+- Eric — Pipeline de pré-processamento NLP
+- Paola — BFS e centralidade das palavras
+- Daniel — Cliques (Bron-Kerbosch) e grau ponderado
+- Siqueira — Union-Find, Kruskal e Prim (MST)
 
-## Ordem sugerida pra implementar
+---
 
-1. **grafo/grafo.py** (João Lobo) — a classe `Grafo` é a base de tudo, o resto depende dela.
-2. **nlp/preprocessamento.py** (Eric) — pipeline de limpeza de texto.
-3. **dados/gerador.py** (Eric) — gera bios fictícias pra testar.
-4. **algoritmos/bfs.py** (Paola) — BFS e centralidade.
-5. **algoritmos/cliques.py** (Daniel) — Bron-Kerbosch e grau ponderado.
-6. **algoritmos/kruskal.py** e **algoritmos/prim.py** (Siqueira) — Union-Find, Kruskal e Prim.
-7. **grafo/jaccard.py** (João Lobo) — filtro de Jaccard (depende do grafo já estar pronto).
-8. **analise/forca_perfil.py** (João Lobo) — índice de força de perfil (depende de cliques, BFS e grau).
-9. **analise/resultados.py** (João Lobo) — funções de print/exibição (depende de tudo acima).
-10. **analise/validacao_tecnica.py** (Siqueira) — comparação Kruskal vs Prim.
-11. **utils/visualizacao.py** (João Lobo) — gráficos (pode ser feito por último, é só visual).
-12. **main.py** (João Lobo) — junta tudo na ordem certa.
+## Estrutura de Pastas
 
-## Testando aos poucos
-
-Dá pra testar cada módulo separado antes de integrar tudo no `main.py`.
-Por exemplo, depois de implementar `grafo/grafo.py`, já dá pra testar:
-
-```python
-from grafo.grafo import Grafo
-g = Grafo()
-g.construir([{"palavras": ["musica", "viagem"]}, {"palavras": ["musica", "cinema"]}])
-print(g.adjacencia)
 ```
+matchmaking_textual/
+│
+├── main.py                      # Ponto de entrada — executa o pipeline completo
+│
+├── dados/
+│   ├── gerador.py               # Gerador de bios fictícias e carregador de JSON
+│   └── bios.json                # Arquivo de bios (gerado automaticamente se não existir)
+│
+├── nlp/
+│   └── preprocessamento.py     # Tokenização, stopwords, lematização (spaCy/nltk)
+│
+├── grafo/
+│   └── grafo.py                 # Estrutura do grafo de coocorrência (dicionário de adjacência)
+│
+├── algoritmos/
+│   ├── bfs.py                   # BFS + centralidade
+│   ├── cliques.py               # Bron-Kerbosch (cliques) + grau ponderado
+│   ├── kruskal.py               # Union-Find + Kruskal (MST máximo)
+│   ├── prim.py                  # Prim com heap (MST máximo) + comparação de complexidade
+│   └── grau.py                  # Reexporta funções de grau ponderado
+│
+├── analise/
+│   └── resultados.py            # Rankings, exibição e cruzamento entre análises
+│
+└── utils/
+    └── visualizacao.py          # Visualizações com matplotlib e networkx (só renderização)
+```
+
+---
 
 ## Instalação
 
 ```bash
-pip install spacy matplotlib networkx
+pip install spacy nltk matplotlib networkx
 python -m spacy download pt_core_news_sm
 ```
 
-## Quando terminar
+Se o spaCy não estiver disponível, o sistema usa um fallback simples de normalização.
 
-Depois de preencher tudo, rode `python main.py` e confira se ele executa
-sem erro do início ao fim, gerando os prints de análise e os arquivos
-`analise/mst.png` e `analise/grafo_coocorrencia.png`.
+---
+
+## Execução
+
+```bash
+cd matchmaking_textual
+python main.py
+```
+
+Na primeira execução sem o arquivo `dados/bios.json`, o sistema gera automaticamente
+50 bios fictícias para teste. Substitua o arquivo pelas bios reais quando disponíveis.
+
+---
+
+## Formato do arquivo de bios (bios.json)
+
+```json
+[
+  {
+    "id": 1,
+    "bio_original": "Amo música e viajo sempre que posso.",
+    "palavras": []
+  },
+  ...
+]
+```
+
+O campo `palavras` pode estar vazio — o sistema faz o pré-processamento automaticamente.
+
+---
+
+## O que o sistema analisa
+
+| Análise | Algoritmo | O que responde |
+|---|---|---|
+| Nichos de interesse | Bron-Kerbosch (cliques) | Quais grupos de palavras formam temas coesos? |
+| Palavras centrais | BFS + centralidade | Quais palavras conectam mais nichos? |
+| Esqueleto semântico | Kruskal / Prim (MST) | Quais são as relações mais fortes do vocabulário? |
+| Palavras em tendência | Grau ponderado | Quais palavras aparecem mais e com maior intensidade? |
+| Cruzamento | Todos | O que as análises revelam em conjunto? |
+
+---
+
+## Uso de LLM no desenvolvimento
+
+- Geração das bios fictícias: ChatGPT / Claude (prompts documentados nos slides)
+- Apoio no planejamento e estruturação do projeto
+- Os algoritmos de grafos foram inteiramente implementados pelo grupo
+
+---
+
+## Notas técnicas e limitações conhecidas (importante revisar antes da entrega)
+
+**Parâmetros do filtro de Jaccard precisam de recalibração por tamanho de dataset.**
+Em `main.py`, `filtrar_grafo_por_jaccard` usa `limiar_jaccard=0.15` e
+`peso_minimo_absoluto=2`. Esses valores foram calibrados para um teste com
+50 bios. Quando o dataset crescer para 200-500 bios, os pesos das arestas
+tendem a aumentar proporcionalmente, e esses limiares podem voltar a
+remover poucas ou nenhuma aresta — o programa agora avisa automaticamente
+no terminal quando isso acontece ("[AVISO] Filtro removeu menos de 1%...").
+Se aparecer esse aviso, aumentem `limiar_jaccard` (ex: 0.2-0.3) ou
+diminuam `peso_minimo_absoluto` até o filtro voltar a ter efeito visível
+(idealmente removendo entre 5% e 20% das arestas — nem pouco a ponto de
+ser inócuo, nem tanto a ponto de fragmentar demais o grafo).
+
+**Complexidade de `calcular_centralidade` (BFS).**
+Roda um BFS a partir de cada vértice do grafo — O(V·(V+E)). Para o
+vocabulário esperado com 200-500 bios isso deve rodar em segundos, mas
+se o vocabulário crescer muito (milhares de palavras únicas), pode ficar
+perceptivelmente lento. Não é um bug, é uma escolha consciente de
+simplicidade de implementação; se precisar otimizar, dá para limitar o
+cálculo de centralidade a uma amostra de vértices em vez de todos.
+
+**Complexidade de `calcular_indice_forca_perfil`.**
+Para cada perfil (bio), itera por todos os cliques rankeados —
+O(bios × cliques). Com 500 bios e dezenas de cliques isso ainda roda
+rápido, mas é outro ponto de trade-off consciente entre simplicidade e
+desempenho, bom para mencionar na seção de "complexidade e adequação"
+da apresentação.
+
+**Visualizações: layout com espaçamento geometricamente garantido.**
+Os layouts de `utils/visualizacao.py` (circular por cluster e radial por
+árvore) calculam o raio de cada camada/cluster com base no tamanho real
+dos nós (convertido de pontos do matplotlib para unidades de dados), não
+apenas na quantidade de nós. Isso evita sobreposição mesmo com zoom ou
+em telas com DPI diferente. O efeito colateral é que a figura fica mais
+espaçada (mais "vazio" entre clusters/galhos) — é intencional, prioriza
+legibilidade sobre compacidade.
+
