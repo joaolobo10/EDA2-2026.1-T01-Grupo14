@@ -59,7 +59,7 @@ Se o spaCy não estiver disponível, o sistema usa um fallback simples de normal
 ## Execução
 
 ```bash
-cd matchmaking_textual
+cd EDA2-2026.1-T01-Grupo14
 python main.py
 ```
 
