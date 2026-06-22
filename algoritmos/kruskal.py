@@ -1,13 +1,4 @@
 # Responsavel: Siqueira
-# Union-Find (disjoint set) e Kruskal para achar a MST de MAIOR peso.
-#
-# Union-Find e a estrutura de dados extra que o trabalho pede alem do
-# grafo. Ela serve pra responder rapido se dois vertices ja estao no
-# mesmo "grupo" (componente), o que o Kruskal usa pra nao formar ciclo.
-#
-# Kruskal normal acha a arvore de MENOR peso. Pra pegar a de MAIOR
-# peso a gente so ordena as arestas do maior pro menor em vez do
-# menor pro maior (e o resto do algoritmo fica igual).
 
 import time
 
@@ -18,7 +9,6 @@ class UnionFind:
         self.rank = {e: 0 for e in elementos}
 
     def find(self, x):
-        # path compression: depois de achar a raiz, aponta x direto pra ela
         if self.pai[x] != x:
             self.pai[x] = self.find(self.pai[x])
         return self.pai[x]
@@ -27,9 +17,8 @@ class UnionFind:
         rx, ry = self.find(x), self.find(y)
 
         if rx == ry:
-            return False  # ja estao no mesmo grupo, juntar formaria ciclo
+            return False  
 
-        # une o menor embaixo do maior (union by rank)
         if self.rank[rx] < self.rank[ry]:
             rx, ry = ry, rx
 

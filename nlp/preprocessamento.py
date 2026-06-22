@@ -1,13 +1,4 @@
 # Responsavel: Daniel
-# Pre-processamento das bios antes de entrar no grafo:
-#   1. tokeniza (separa em palavras)
-#   2. tira pontuacao e deixa minusculo
-#   3. tira stopwords
-#   4. lematiza (spacy) ou tenta normalizar plural/verbo de um jeito mais simples
-#
-# Instalacao:
-#   pip install spacy
-#   python -m spacy download pt_core_news_sm
 
 import re
 
@@ -21,7 +12,6 @@ except Exception:
 
 
 # stopwords que a gente foi adicionando na mao conforme via palavra
-# sem sentido aparecendo nos resultados (tipo "por", "posso", "sou")
 STOPWORDS_EXTRAS = {
     "gosto", "adoro", "amo", "curto", "gosta", "muito", "sempre", "também",
     "todo", "toda", "todos", "todas", "meu", "minha", "meus", "minhas",

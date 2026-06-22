@@ -95,7 +95,6 @@ def carregar_bios(caminho):
     if os.path.exists(caminho):
         with open(caminho, "r", encoding="utf-8") as f:
             dados = json.load(f)
-        # se a bio nao tiver palavras processadas ainda, processa agora
         for perfil in dados:
             if "palavras" not in perfil or not perfil["palavras"]:
                 perfil["palavras"] = preprocessar(perfil.get("bio_original", ""))

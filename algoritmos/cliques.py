@@ -1,14 +1,4 @@
 # Responsavel: Daniel
-# Cliques (Bron-Kerbosch) e grau ponderado.
-#
-# Um clique e um grupo de palavras onde TODAS estao ligadas entre si.
-# No nosso caso isso representa um nicho de interesse bem coeso (ex:
-# musica, show, banda, festival formando um clique = nicho musical).
-#
-# Grau ponderado e a soma dos pesos das arestas de uma palavra - mostra
-# o quanto ela e "forte" no vocabulario (nao so com quantas palavras
-# ela aparece, mas com que frequencia).
-
 
 def bron_kerbosch(grafo, R, P, X, cliques):
     if not P and not X:
@@ -16,8 +6,6 @@ def bron_kerbosch(grafo, R, P, X, cliques):
             cliques.append(frozenset(R))
         return
 
-    # pega o vertice de P ou X que tem mais vizinhos em P (pivo), isso
-    # reduz a quantidade de chamadas recursivas
     pivo = max(P | X, key=lambda v: len(set(grafo.vizinhos(v).keys()) & P))
     vizinhos_pivo = set(grafo.vizinhos(pivo).keys())
 
@@ -65,8 +53,6 @@ def calcular_grau_ponderado(grafo):
 
 
 def palavras_nicho_intenso(graus, top_n=10):
-    # alto grau ponderado mas baixo grau simples = aparece com poucas
-    # palavras mas com muita forca (nicho restrito e intenso)
     resultado = []
     for p, v in graus.items():
         gs, gp = v["grau_simples"], v["grau_ponderado"]
@@ -78,7 +64,6 @@ def palavras_nicho_intenso(graus, top_n=10):
 
 
 def palavras_interesse_generico(graus, top_n=10):
-    # o oposto: aparece com muitas palavras mas com pouca forca cada
     resultado = []
     for p, v in graus.items():
         gs, gp = v["grau_simples"], v["grau_ponderado"]
