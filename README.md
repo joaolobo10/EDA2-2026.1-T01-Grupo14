@@ -4,10 +4,9 @@ Trabalho da disciplina de Estruturas de Dados / Algoritmos em Grafos.
 
 ## Integrantes
 
-- João Lobo — Estrutura do grafo, construção, análise e integração
-- Eric — Pipeline de pré-processamento NLP
+- João Lobo — Estrutura do grafo, construção, análise e integração 
 - Paola — BFS e centralidade das palavras
-- Daniel — Cliques (Bron-Kerbosch) e grau ponderado
+- Daniel — Cliques, grau ponderado e Pipeline de pré-processamento NLP
 - Siqueira — Union-Find, Kruskal e Prim (MST)
 
 ---
@@ -24,7 +23,7 @@ matchmaking_textual/
 │   └── bios.json                # Arquivo de bios (gerado automaticamente se não existir)
 │
 ├── nlp/
-│   └── preprocessamento.py     # Tokenização, stopwords, lematização (spaCy/nltk)
+│   └── preprocessamento.py     # Tokenização, stopwords, lematização (spaCy)
 │
 ├── grafo/
 │   └── grafo.py                 # Estrutura do grafo de coocorrência (dicionário de adjacência)
@@ -48,7 +47,7 @@ matchmaking_textual/
 ## Instalação
 
 ```bash
-pip install spacy nltk matplotlib networkx
+pip install spacy matplotlib networkx
 python -m spacy download pt_core_news_sm
 ```
 

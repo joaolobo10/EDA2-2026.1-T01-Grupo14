@@ -1,13 +1,4 @@
 # Responsavel: Siqueira
-# Prim usando heap (heapq do python) pra achar a MST de MAIOR peso.
-#
-# A diferenca pro Kruskal: o Prim cresce a arvore a partir de UM
-# vertice, sempre pegando a aresta de maior peso que liga um vertice
-# que ja ta na arvore com um que ainda nao ta. O Kruskal olha pra
-# TODAS as arestas do grafo de uma vez.
-#
-# Como o heapq do python e uma heap MINIMA e a gente quer sempre pegar
-# o MAIOR peso, colocamos os pesos negativos na heap (truque comum).
 
 import heapq
 import time
@@ -41,7 +32,7 @@ def prim_maximo(grafo, vertice_inicial=None):
         peso_neg, a, b = heapq.heappop(heap)
 
         if b in visitados:
-            continue  # ja foi visitado por outro caminho, ignora
+            continue 
 
         peso = -peso_neg
         mst.append((a, b, peso))
@@ -58,8 +49,6 @@ def prim_maximo(grafo, vertice_inicial=None):
 
 
 def comparar_kruskal_prim(grafo, subsets=None):
-    # roda kruskal e prim em pedacos do grafo de tamanhos diferentes
-    # pra comparar o tempo de execucao dos dois
     from grafo.grafo import Grafo
     from algoritmos.kruskal import kruskal_maximo
 

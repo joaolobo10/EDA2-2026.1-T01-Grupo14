@@ -3,7 +3,7 @@
     "id": 1,
     "bio_original": "Apaixonado por festivais de música. Gamer nas horas vagas, principalmente RPG.",
     "palavras": [
-      "apaixonado",
+      "apaixonar",
       "festival",
       "música",
       "gamer",
@@ -20,7 +20,6 @@
       "viajo",
       "conhecer",
       "lugar",
-      "novo",
       "desenvolvo",
       "aplicativo",
       "hobbie"
@@ -31,9 +30,8 @@
     "bio_original": "Fotografo paisagens e retratos no tempo livre. Amo música e vou a shows sempre que posso.",
     "palavras": [
       "fotografo",
-      "paisagen",
+      "paisagem",
       "retrato",
-      "tempo",
       "livre",
       "música",
       "show"
@@ -43,15 +41,13 @@
     "id": 4,
     "bio_original": "Sou barista nas horas vagas e amo café especial. Leio pelo menos um livro por mês.",
     "palavras": [
-      "barista",
+      "baristar",
       "hora",
       "vaga",
       "café",
       "especial",
       "leio",
-      "meno",
-      "livro",
-      "mês"
+      "livro"
     ]
   },
   {
@@ -71,14 +67,13 @@
     "bio_original": "Ouço de tudo, mas sertanejo é minha paixão. Pinto aquarelas como hobbie. Sou apaixonado por esportes radicais.",
     "palavras": [
       "ouço",
-      "tudo",
-      "sertanejo",
+      "sertanejor",
       "paixão",
       "pinto",
       "aquarela",
       "hobbie",
-      "apaixonado",
-      "esport",
+      "apaixonar",
+      "esporte",
       "radical"
     ]
   },
@@ -86,15 +81,13 @@
     "id": 7,
     "bio_original": "Restaurantes e bares novos são meu programa favorito. Fotografo paisagens e retratos no tempo livre.",
     "palavras": [
-      "restaurant",
+      "restaurante",
       "bar",
-      "novo",
       "programa",
       "favorito",
       "fotografo",
-      "paisagen",
+      "paisagem",
       "retrato",
-      "tempo",
       "livre"
     ]
   },
@@ -105,7 +98,7 @@
       "pinto",
       "aquarela",
       "hobbie",
-      "apaixonado",
+      "apaixonar",
       "festival",
       "música"
     ]
@@ -115,8 +108,8 @@
     "bio_original": "Música eletrônica e baladas são meu mundo. Trabalho com programação e amo tecnologia. Faço churrasco todo domingo com os amigos.",
     "palavras": [
       "música",
-      "eletrônica",
-      "balada",
+      "eletrônico",
+      "balar",
       "mundo",
       "trabalho",
       "programação",
@@ -133,8 +126,8 @@
       "prefiro",
       "livro",
       "físico",
-      "book",
-      "pinto",
+      "books",
+      "Pinto",
       "aquarela",
       "hobbie"
     ]
@@ -143,10 +136,10 @@
     "id": 11,
     "bio_original": "Adoro academia e corrida de rua. Apaixonado por festivais de música.",
     "palavras": [
-      "academia",
-      "corrida",
+      "academio",
+      "corrido",
       "rua",
-      "apaixonado",
+      "apaixonar",
       "festival",
       "música"
     ]
@@ -158,7 +151,6 @@
       "cozinhar",
       "experimentar",
       "receita",
-      "nova",
       "cinema",
       "independente",
       "paixão"
@@ -168,11 +160,11 @@
     "id": 13,
     "bio_original": "Tenho uma horta em casa e amo jardinagem. Acompanho tendências de inteligência artificial. Praias e montanhas são meus destinos favoritos.",
     "palavras": [
-      "horta",
+      "horto",
       "casa",
       "jardinagem",
-      "acompanho",
-      "tendência",
+      "acompanhar",
+      "tendêncio",
       "inteligência",
       "artificial",
       "praia",
@@ -186,9 +178,7 @@
     "bio_original": "Leio pelo menos um livro por mês. Desenvolvo aplicativos como hobbie.",
     "palavras": [
       "leio",
-      "meno",
       "livro",
-      "mês",
       "desenvolvo",
       "aplicativo",
       "hobbie"
@@ -203,7 +193,6 @@
       "amigo",
       "natação",
       "ciclismo",
-      "parte",
       "rotina"
     ]
   },
@@ -214,32 +203,29 @@
       "cozinhar",
       "experimentar",
       "receita",
-      "nova",
       "gamer",
       "hora",
       "vaga",
       "principalmente",
       "rpg",
-      "viajo",
+      "viajar",
       "conhecer",
-      "lugar",
-      "novo"
+      "lugar"
     ]
   },
   {
     "id": 17,
     "bio_original": "Adoro museus e exposições de arte contemporânea. Turismo gastronômico é minha forma favorita de viajar. Apaixonado por festivais de música.",
     "palavras": [
-      "museu",
+      "museus",
       "exposição",
       "arte",
-      "contemporânea",
+      "contemporâneo",
       "turismo",
       "gastronômico",
-      "forma",
-      "favorita",
+      "favorito",
       "viajar",
-      "apaixonado",
+      "apaixonar",
       "festival",
       "música"
     ]
@@ -250,10 +236,10 @@
     "palavras": [
       "mergulho",
       "ecoturismo",
-      "hobbi",
-      "apaixonado",
+      "hobbie",
+      "apaixonar",
       "culinária",
-      "italiana"
+      "italiano"
     ]
   },
   {
@@ -262,14 +248,13 @@
     "palavras": [
       "turismo",
       "gastronômico",
-      "forma",
-      "favorita",
+      "favorito",
       "viajar",
       "torço",
       "time",
       "futebol",
       "acompanho",
-      "tendência",
+      "tendêncio",
       "inteligência",
       "artificial"
     ]
@@ -278,18 +263,16 @@
     "id": 20,
     "bio_original": "Adoro museus e exposições de arte contemporânea. Turismo gastronômico é minha forma favorita de viajar. Natação e ciclismo fazem parte da minha rotina.",
     "palavras": [
-      "museu",
+      "museus",
       "exposição",
       "arte",
-      "contemporânea",
+      "contemporâneo",
       "turismo",
       "gastronômico",
-      "forma",
-      "favorita",
+      "favorito",
       "viajar",
       "natação",
       "ciclismo",
-      "parte",
       "rotina"
     ]
   },
@@ -299,10 +282,10 @@
     "palavras": [
       "música",
       "show",
-      "museu",
+      "museus",
       "exposição",
       "arte",
-      "contemporânea"
+      "contemporâneo"
     ]
   },
   {
@@ -310,33 +293,29 @@
     "bio_original": "Fotografo paisagens e retratos no tempo livre. Frequento feiras de livros e livrarias antigas.",
     "palavras": [
       "fotografo",
-      "paisagen",
+      "paisagem",
       "retrato",
-      "tempo",
       "livre",
       "frequento",
       "feira",
       "livro",
-      "livraria",
-      "antiga"
+      "livrario",
+      "antigo"
     ]
   },
   {
     "id": 23,
     "bio_original": "Cuido de animais e sou ativista ambiental. Leio pelo menos um livro por mês. Viajo sempre que posso, adoro conhecer lugares novos.",
     "palavras": [
-      "cuido",
+      "cuer",
       "animal",
       "ativista",
       "ambiental",
       "leio",
-      "meno",
       "livro",
-      "mês",
       "viajo",
       "conhecer",
-      "lugar",
-      "novo"
+      "lugar"
     ]
   },
   {
@@ -347,10 +326,10 @@
       "pcs",
       "hardware",
       "violão",
-      "banda",
+      "banr",
       "rock",
       "mochilão",
-      "américa",
+      "América",
       "sul",
       "sonho"
     ]
@@ -360,7 +339,7 @@
     "bio_original": "Ficção científica e fantasia são meus gêneros favoritos. Cuido de animais e sou ativista ambiental.",
     "palavras": [
       "ficção",
-      "científica",
+      "científico",
       "fantasia",
       "gênero",
       "favorito",
@@ -377,22 +356,21 @@
       "prefiro",
       "livro",
       "físico",
-      "book",
+      "Books",
       "escultura",
-      "cerâmica",
-      "fins",
-      "semana"
+      "cerâmico",
+      "fim",
+      "semano"
     ]
   },
   {
     "id": 27,
     "bio_original": "Já morei fora do país e amo culturas diferentes. Cuido de animais e sou ativista ambiental.",
     "palavras": [
-      "morei",
-      "fora",
+      "morar",
       "país",
       "cultura",
-      "diferent",
+      "diferente",
       "cuido",
       "animal",
       "ativista",
@@ -408,8 +386,7 @@
       "tecnologia",
       "cozinhar",
       "experimentar",
-      "receita",
-      "nova"
+      "receita"
     ]
   },
   {
@@ -417,7 +394,7 @@
     "bio_original": "Ficção científica e fantasia são meus gêneros favoritos. Torço muito para o meu time de futebol. Amo música e vou a shows sempre que posso.",
     "palavras": [
       "ficção",
-      "científica",
+      "científico",
       "fantasia",
       "gênero",
       "favorito",
@@ -436,9 +413,9 @@
       "acampamento",
       "natureza",
       "escultura",
-      "cerâmica",
-      "fins",
-      "semana"
+      "cerâmico",
+      "fim",
+      "semano"
     ]
   },
   {
@@ -446,7 +423,7 @@
     "bio_original": "Mochilão pela América do Sul é meu sonho. Desenvolvo aplicativos como hobbie.",
     "palavras": [
       "mochilão",
-      "américa",
+      "América",
       "sul",
       "sonho",
       "desenvolvo",
@@ -461,19 +438,18 @@
       "prefiro",
       "livro",
       "físico",
-      "book",
+      "books",
       "mergulho",
       "ecoturismo",
-      "hobbi"
+      "hobbie"
     ]
   },
   {
     "id": 33,
     "bio_original": "Restaurantes e bares novos são meu programa favorito. Construo PCs e adoro hardware.",
     "palavras": [
-      "restaurant",
+      "restaurante",
       "bar",
-      "novo",
       "programa",
       "favorito",
       "construo",
@@ -489,13 +465,13 @@
       "acampamento",
       "natureza",
       "ficção",
-      "científica",
+      "científico",
       "fantasia",
       "gênero",
       "favorito",
-      "apaixonado",
+      "apaixonar",
       "culinária",
-      "italiana"
+      "italiano"
     ]
   },
   {
@@ -506,8 +482,8 @@
       "aplicativo",
       "hobbie",
       "música",
-      "eletrônica",
-      "balada",
+      "eletrônico",
+      "balar",
       "mundo"
     ]
   },
@@ -518,7 +494,6 @@
       "cozinhar",
       "experimentar",
       "receita",
-      "nova",
       "música",
       "show"
     ]
@@ -527,8 +502,8 @@
     "id": 37,
     "bio_original": "Sou apaixonado por esportes radicais. Amo música e vou a shows sempre que posso.",
     "palavras": [
-      "apaixonado",
-      "esport",
+      "apaixonar",
+      "esporte",
       "radical",
       "música",
       "show"
@@ -541,8 +516,8 @@
       "frequento",
       "feira",
       "livro",
-      "livraria",
-      "antiga",
+      "livrario",
+      "antigo",
       "gamer",
       "hora",
       "vaga",
@@ -556,10 +531,9 @@
     "palavras": [
       "mergulho",
       "ecoturismo",
-      "hobbi",
+      "hobbie",
       "natação",
       "ciclismo",
-      "parte",
       "rotina"
     ]
   },
@@ -569,9 +543,8 @@
     "palavras": [
       "natação",
       "ciclismo",
-      "parte",
       "rotina",
-      "apaixonado",
+      "apaixonar",
       "festival",
       "música"
     ]
@@ -581,14 +554,12 @@
     "bio_original": "Fotografo paisagens e retratos no tempo livre. Adoro cozinhar e experimentar receitas novas. Trabalho com programação e amo tecnologia.",
     "palavras": [
       "fotografo",
-      "paisagen",
+      "paisagem",
       "retrato",
-      "tempo",
       "livre",
       "cozinhar",
       "experimentar",
       "receita",
-      "nova",
       "trabalho",
       "programação",
       "tecnologia"
@@ -603,12 +574,12 @@
       "vaga",
       "principalmente",
       "rpg",
-      "museu",
+      "museus",
       "exposição",
       "arte",
-      "contemporânea",
+      "contemporâneo",
       "violão",
-      "banda",
+      "banr",
       "rock"
     ]
   },
@@ -623,8 +594,8 @@
       "churrasco",
       "domingo",
       "amigo",
-      "academia",
-      "corrida",
+      "academio",
+      "corrido",
       "rua"
     ]
   },
@@ -632,14 +603,13 @@
     "id": 44,
     "bio_original": "Cuido de animais e sou ativista ambiental. Fotografo paisagens e retratos no tempo livre.",
     "palavras": [
-      "cuido",
+      "cuer",
       "animal",
       "ativista",
       "ambiental",
       "fotografo",
-      "paisagen",
+      "paisagem",
       "retrato",
-      "tempo",
       "livre"
     ]
   },
@@ -648,7 +618,7 @@
     "bio_original": "Toco violão e adoro bandas de rock. Tenho uma horta em casa e amo jardinagem.",
     "palavras": [
       "violão",
-      "banda",
+      "banr",
       "rock",
       "horta",
       "casa",
@@ -661,13 +631,12 @@
     "palavras": [
       "mergulho",
       "ecoturismo",
-      "hobbi",
+      "hobbie",
       "cozinhar",
       "experimentar",
       "receita",
-      "nova",
-      "academia",
-      "corrida",
+      "academio",
+      "corrido",
       "rua"
     ]
   },
@@ -676,16 +645,14 @@
     "bio_original": "Ouço de tudo, mas sertanejo é minha paixão. Restaurantes e bares novos são meu programa favorito. Mochilão pela América do Sul é meu sonho.",
     "palavras": [
       "ouço",
-      "tudo",
-      "sertanejo",
+      "sertanejor",
       "paixão",
-      "restaurant",
+      "restaurante",
       "bar",
-      "novo",
       "programa",
       "favorito",
       "mochilão",
-      "américa",
+      "América",
       "sul",
       "sonho"
     ]
@@ -694,14 +661,12 @@
     "id": 48,
     "bio_original": "Já morei fora do país e amo culturas diferentes. Pratico futebol todo fim de semana. Cuido de animais e sou ativista ambiental.",
     "palavras": [
-      "morei",
-      "fora",
+      "morar",
       "país",
       "cultura",
-      "diferent",
+      "diferentes",
       "pratico",
       "futebol",
-      "fim",
       "semana",
       "cuido",
       "animal",
@@ -717,8 +682,8 @@
       "programação",
       "tecnologia",
       "música",
-      "eletrônica",
-      "balada",
+      "eletrônico",
+      "balar",
       "mundo"
     ]
   },
@@ -729,14 +694,11 @@
       "viajo",
       "conhecer",
       "lugar",
-      "novo",
       "violão",
-      "banda",
+      "banr",
       "rock",
       "leio",
-      "meno",
-      "livro",
-      "mês"
+      "livro"
     ]
   }
 ]

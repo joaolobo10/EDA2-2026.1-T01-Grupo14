@@ -1,9 +1,4 @@
 # Responsavel: Siqueira
-# Essa parte e validacao TECNICA, nao e analise de dados/NLP. Serve pra
-# provar que Kruskal e Prim estao implementados corretamente (batem no
-# mesmo resultado) e pra comparar a complexidade pratica dos dois.
-# Por isso fica separada das analises principais (cliques, centralidade,
-# tendencias, forca de perfil).
 
 from algoritmos.prim import comparar_kruskal_prim
 

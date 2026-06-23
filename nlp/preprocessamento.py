@@ -13,7 +13,7 @@ except Exception:
 
 # stopwords que a gente foi adicionando na mao conforme via palavra
 STOPWORDS_EXTRAS = {
-    "gosto", "adoro", "amo", "curto", "gosta", "muito", "sempre", "também",
+    "gosto", "adoro", "adorar", "amar", "amo", "curto", "gosta", "gostar", "muito", "sempre", "também",
     "todo", "toda", "todos", "todas", "meu", "minha", "meus", "minhas",
     "seu", "sua", "seus", "suas", "nosso", "nossa", "um", "uma", "uns",
     "umas", "ser", "ter", "fazer", "ir", "vir", "dar", "ver", "saber",
